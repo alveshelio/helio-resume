@@ -1,10 +1,11 @@
 {
   "name": "helio-resume",
   "version": "0.2.0",
+  "description": "Get to know Helio via `npx helio-resume`",
   "bin": {
     "helio": "index.js"
   },
   "dependencies": {
-    "clear-any-console": "^1.16.2"
+    "cli-welcome": "^2.2.2"
   }
 }
