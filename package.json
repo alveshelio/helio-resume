@@ -1,6 +1,7 @@
 {
   "name": "helio-resume",
   "version": "0.3.1",
+  "main": "index.js",
   "description": "Get to know Helio via `npx helio-resume`",
   "keywords": [
     "Helio Alves",
@@ -12,5 +13,11 @@
   },
   "dependencies": {
     "cli-welcome": "^2.2.2"
-  }
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Helio Alves",
+    "url": "https://twitter.com/helioalves"
+  },
+  "repository": "alveshelio/helio-resume"
 }
