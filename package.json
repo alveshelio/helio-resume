@@ -3,5 +3,8 @@
   "version": "0.1.3",
   "bin": {
     "helio": "index.js"
+  },
+  "dependencies": {
+    "clear-any-console": "^1.16.2"
   }
 }
