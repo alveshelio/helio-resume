@@ -1,10 +1,21 @@
 #!/usr/bin/env node
-const clearConsole = require('clear-any-console')
+const welcome = require('cli-welcome')
+const pkgJSON = require('./package.json')
 
-// clears any console OS agnostic
-clearConsole()
+welcome({
+  title: pkgJSON.name,
+  tagLine: 'Get to know Helio',
+  description: pkgJSON.description,
+  version: pkgJSON.version,
+  bgColor: '#fadc00',
+  color: '#000000',
+  bold: true,
+  clear: true,
+})
+
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 async function printResume () {
+  await sleep(300)
   console.log('Welcome to my resume')
   await sleep(300)
   console.log('Helio Alves')
