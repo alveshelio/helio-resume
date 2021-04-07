@@ -1,8 +1,12 @@
 {
   "name": "helio-resume",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Get to know Helio via `npx helio-resume`",
-  "keywords": ["Helio Alves", "Resume", "cli"],
+  "keywords": [
+    "Helio Alves",
+    "Resume",
+    "cli"
+  ],
   "bin": {
     "helio": "index.js"
   },
